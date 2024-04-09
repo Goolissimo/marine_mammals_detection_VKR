@@ -1,1 +1,3 @@
-#Marine_mammals_detection
+# Marine_mammals_detection
+
+## Описание проекта
