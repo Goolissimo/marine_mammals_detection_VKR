@@ -2,10 +2,18 @@ from ultralytics import YOLO
 
 # Загрузка модели
 model = YOLO("yolov8s.pt")  # load a pretrained model
+#Переключение на GPU
 model.to('cuda')
 
-# Дообучение
-model.train(data="../dataset/data.yaml", epochs=100, patience=10, batch=-1, amp=False, plots=False)  # train the model
+# Обучение модели
+model.train(data='../data.yaml', 
+            epochs=100, 
+            patience=10, 
+            optimizer='auto',
+            imgsz=640,
+            batch=-1,
+            amp=False, 
+            plots=False)
 
-#Оценка качества
-metrics = model.val()  # evaluate model performance on the validation set
+#Оценка качества на валидации
+metrics = model.val()
