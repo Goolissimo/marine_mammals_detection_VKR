@@ -18,4 +18,4 @@ results = model([img1, img2, img3, img4, img5])  # Возвращает спис
 for idx, result in enumerate(results):
     boxes = result.boxes  # Boxes object for bounding box outputs
     result.show()  # display to screen
-#    result.save(filename=f'C:/Users/Лера/Pictures/Saved Pictures/result{idx}.jpg')  # Сохранение на диск
+#    result.save(filename=f'C:/Users/Sava/Pictures/Saved Pictures/result{idx}.jpg')  # Сохранение на диск
