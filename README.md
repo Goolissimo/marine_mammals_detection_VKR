@@ -1,6 +1,12 @@
 # Marine_mammals_detection
 
 ## Описание проекта
+
+### Ссылка на датасет
+
+### Метрики
+
+### Примеры работы
 ![result0](https://github.com/Goolissimo/marine_mammals_detection_VKR/assets/113251478/1cd00357-24dd-4f44-9998-4ba41adde38b)
 ![result1](https://github.com/Goolissimo/marine_mammals_detection_VKR/assets/113251478/b203e63f-1593-407d-a8a2-5d8dcfbeb45a)
 ![result2](https://github.com/Goolissimo/marine_mammals_detection_VKR/assets/113251478/46a47465-1ff6-495c-ab46-cc3c675f2e53)
