@@ -10,8 +10,7 @@ def __init__(self, p=1.0):
         prefix = colorstr("albumentations: ")
         try:
             import albumentations as A         
-
-            # Insert required transformation here
+                
             T = [
                 A.Blur(p=0.1),
                 A.MedianBlur(p=0.1),
