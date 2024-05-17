@@ -3,8 +3,15 @@
 ## Описание проекта
 
 ### Ссылка на датасет
-
+https://kaggle.com/datasets/b60ef6aa0980a31ee0c46a2a6ee0a704bdf2ed8fc00352563c1d854786f63b4a
 ### Метрики
+Модель	Класс	F1-score	mAP50	mAP50-95
+Модель, обученная без использования аугментаций	Dolphin	0.92	0.965	0.811
+	Whale	0.923	0.966	0.886
+	All	0.922	0.965	0.849
+Модель, обученная с использованием аугментаций	Dolphin	0.93	0.976	0.839
+	Whale	0.945	0.98	0.912
+	All	0.937	0.976	0.875
 
 ### Примеры работы
 ![result0](https://github.com/Goolissimo/marine_mammals_detection_VKR/assets/113251478/1cd00357-24dd-4f44-9998-4ba41adde38b)
