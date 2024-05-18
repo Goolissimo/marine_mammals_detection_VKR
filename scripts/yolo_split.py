@@ -3,18 +3,18 @@ import os
 import shutil
 
 # Создание каталогов
-os.mkdir(f'C:/Users/Савелий/Desktop/dataset/yolo/train/labels')
-os.mkdir(f'C:/Users/Савелий/Desktop/dataset/yolo/train/images')
+os.mkdir(f'../dataset/yolo/train/labels')
+os.mkdir(f'../dataset/yolo/train/images')
 
-os.mkdir(f'C:/Users/Савелий/Desktop/ДИПЛОМ/dataset/yolo/valid/labels')
-os.mkdir(f'C:/Users/Савелий/Desktop/ДИПЛОМ/dataset/yolo/valid/images')
+os.mkdir(f'../dataset/yolo/valid/labels')
+os.mkdir(f'../dataset/yolo/valid/images')
 
-os.mkdir(f'C:/Users/Савелий/Desktop/dataset/yolo/test/labels')
-os.mkdir(f'C:/Users/Савелий/Desktop/dataset/yolo/test/images')
+os.mkdir(f'../dataset/yolo/test/labels')
+os.mkdir(f'../dataset/yolo/test/images')
 
 # Раздение изображений по каталогам
-train = 'C:/Users/Савелий/Desktop/dataset/yolo/train'
-valid = 'C:/Users/Савелий/Desktop/dataset/yolo/valid'
+train = '../dataset/yolo/train'
+valid = '../dataset/yolo/valid'
 
 for folder, _, files in os.walk(train):
     for file in files:
