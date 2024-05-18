@@ -30,5 +30,5 @@ Albumentations.__init__ = __init__
 
 model = YOLO('yolov8s.pt')
 
-model.train(data='/home/dev2/dataset/data.yaml', epochs=200, patience=10, batch=20, amp=False, plots=True, device=0)
+model.train(data='../dataset/data.yaml', epochs=200, patience=10, batch=20, amp=False, plots=True, device=0)
 metrics = model.val()
