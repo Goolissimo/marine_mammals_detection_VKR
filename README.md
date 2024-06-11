@@ -10,12 +10,13 @@ https://kaggle.com/datasets/b60ef6aa0980a31ee0c46a2a6ee0a704bdf2ed8fc00352563c1d
 1)  Blur
 2)  MedianBlur
 3)  ToGray
-4)  CLAHE,
+4)  CLAHE
 5)  RandomBrightnessContrast
-### Примеры работы (Нужно обновить, старая модель)
+### Примеры работы
 ![result0](https://github.com/Goolissimo/marine_mammals_detection_VKR/assets/113251478/1cd00357-24dd-4f44-9998-4ba41adde38b)
 ![result1](https://github.com/Goolissimo/marine_mammals_detection_VKR/assets/113251478/43270eb7-0a66-4f5b-9aec-19fb139d03fd)
 ![result2](https://github.com/Goolissimo/marine_mammals_detection_VKR/assets/113251478/46a47465-1ff6-495c-ab46-cc3c675f2e53)
 ![result3](https://github.com/Goolissimo/marine_mammals_detection_VKR/assets/113251478/95ed8b28-d1d1-44d3-902d-f76dc572f145)
 ![result4](https://github.com/Goolissimo/marine_mammals_detection_VKR/assets/113251478/00b28aae-52f5-4cdc-a95f-2ce16902ace3)
 ![result5](https://github.com/Goolissimo/marine_mammals_detection_VKR/assets/113251478/ed559567-0f60-447e-b41d-1c2c422907ed)
+![result6](https://github.com/Goolissimo/marine_mammals_detection_VKR/assets/113251478/7844d7f1-67e4-432c-b7f9-b0500f7ff55f)
